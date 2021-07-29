@@ -1,0 +1,56 @@
+@import 'index.css';
+
+.page-description{
+	background-image: url(../images/ourservices.jpg);
+}
+
+.page-description-title{
+	color: #fff;
+	padding-top: 6em;
+}
+
+/* Services */
+
+.services-header{
+	margin-bottom: 1em;
+}
+
+.thumbnail-image{
+	all: unset
+}
+
+.service-thumbnail{
+	margin-bottom: 2em;
+	border: 1px solid #1792d2;
+	border-radius: 5px;
+	padding: 1.5em .5em;
+}
+
+.thumbnail-title{
+	font-weight: 700;
+}
+
+
+
+.thumbnail-description{
+	text-align: justify;
+	width: 80%;
+	margin: 0 auto;
+ }
+
+
+
+@media (min-width: 720px){
+
+	.thumbnail-image{
+		margin: 0;
+	}
+
+	.thumbnail-title{
+		text-align: center;
+	}
+	.service-thumbnail{
+		margin-right: 2em;
+	}
+
+}

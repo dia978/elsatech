@@ -1,0 +1,48 @@
+@import 'index.css'; 
+
+.page-description{
+	background-image: url(../images/contactus.jpg);
+}
+
+.page-description-title{
+	color: #fff;
+	padding-top: 6em;
+}
+
+.contact-section{
+	margin: 2em 0;
+}
+
+.contact-title{
+	font-weight: 700;
+}
+
+.contact-form label{
+	text-align: left;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: .9em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #1792d2;
+  color: white;
+  padding: 1em 2em;
+  border: 1px solid #1792d2;
+  border-radius: 4px;
+  cursor: pointer; 
+}
+
+input[type=submit]:hover {
+  background-color: white;
+  border: 1px solid #1792d2;
+  color: #1792d2
+}
